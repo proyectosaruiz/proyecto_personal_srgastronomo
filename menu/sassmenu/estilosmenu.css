@@ -1,0 +1,146 @@
+.tablas {
+  width: 80vw;
+  margin: 20px auto;
+  border-collapse: separate;
+  border: 1px solid white;
+}
+
+.producto {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+th {
+  border: 1px solid white;
+  font-size: 30px;
+}
+
+td {
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+select {
+  background: #000;
+  color: #fff;
+  font-family: "IndieFlower";
+  font-size: 20px;
+}
+
+.euros,
+.costo,
+.gramos {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+input {
+  width: 80px;
+  background: #000;
+  color: #fff;
+  font-family: "IndieFlower";
+  font-size: 20px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "IndieFlower";
+  src: url(Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+body {
+  width: 90%;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "IndieFlower";
+}
+
+.encabezado {
+  font-size: 35px;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: black;
+  top: 0px;
+}
+
+.solicitud {
+  background-color: ghostwhite;
+  color: #000;
+  font-size: 28px;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 3px;
+  font-family: "IndieFlower";
+}
+
+.solicitud:hover {
+  opacity: 0.8;
+  font-weight: bold;
+  opacity: 0.9;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.solicitud:visited {
+  opacity: 0.8;
+}
+
+.costeInventario {
+  background: white;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 30px auto;
+  color: black;
+  font-size: 25px;
+}
+/*# sourceMappingURL=estilosmenu.css.map */

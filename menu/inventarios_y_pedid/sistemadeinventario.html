@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es,en,ga">
+  <head>
+    <meta charset="utf-8" />
+    <title>inventario y ped.</title>
+    <meta
+      name="keywords"
+      content="inventario,rentabilidad,
+                                      scorecard,gestion,comida,gastronomia,gourmet,negocio
+                                      restaurante,hosteleria,restauracion,servicios,"
+    />
+    <meta
+      name="description"
+      content="hosteleria, restauracion, gastronomia,negocio, inventarios,servicios,gestion,"
+    />
+    <meta name="author" content="Amilcar Ruiz-Sr.Gastronomo" />
+    <link rel="stylesheet" href="../sassmenu/estilosmenu.css" type="text/css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0 minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico" />
+  </head>
+  <body>
+    <div class="encabezado">
+      <h1>Inventarios y Pedidos</h1>
+    </div>
+    <table class="tablas">
+      <tr>
+        <th>Descripcion</th>
+        <th>Cantidad Existente</th>
+        <th>Caja/Unidad</th>
+        <th>Proveedor</th>
+        <th>Stock</th>
+        <th>Sugerencias</th>
+        <th>Precio por Unidad</th>
+        <th>Precio por Caja</th>
+      </tr>
+      <tr>
+        <td>Pan Brioche</td>
+        <td>20</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Casas</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>25</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+            <td>
+              <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+                <p>€</p></div>
+            </td>
+        </td>
+      </tr>
+      <tr>
+        <td>Carne 200 gramos</td>
+        <td>15</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Casas</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>19</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Queso Elemental</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Queso Guoda</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Jamon Curado</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Servilletas</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Leche entera</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Jamon Curado</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Servilletas</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      <tr>
+        <td>Leche entera</td>
+        <td>17</td>
+        <td>
+          <select name="unidades">
+            <option>Caja</option>
+            <option>Unidad</option>
+          </select>
+        </td>
+        <td>Inversiones Inso</td>
+        <td>
+          <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+        </td>
+        <td>29</td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+        <td>
+          <div class="euros"> <input type="number" name="cantidad" min="0" max="10000" step="0.0" />
+            <p>€</p></div>
+        </td>
+      </tr>
+      
+      
+    </table>
+    <button onClick="alert('¡Hola, señor!')" class="solicitud">
+      Enviar Pedido
+    </button>
+    <button onClick="alert('¡Hola, señor!')" class="solicitud">
+      Terminar Inventario
+    </button>
+    <div class="costeInventario">
+      <p>Coste del Inventario</p>
+      <br>
+      <p>122225 Euros</p>
+      
+    </div>
+  </body>
+</html>
